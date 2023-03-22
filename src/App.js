@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="main">
+      <div className="head">
+        <button>Home</button>
+        <button>About us</button>
+        <button>Laguna</button>
+        <button>Tour</button>
+      </div>
+      <div className="Info">
+        <h1>Bienvenido a San gregorio</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam
+          eleifend mi in nulla.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <button className="Discover">Leer mas</button>
+        <div className="picture">
+          <img src="hero.png" alt="SG" width="40%" height="100%" />
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
