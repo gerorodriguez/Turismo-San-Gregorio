@@ -1,0 +1,23 @@
+.main {
+  font-family: sans-serif;
+}
+.head {
+  display: flex;
+  justify-content: space-around;
+}
+.head button {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: black;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  margin: 20px 0;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.bt1 {
+  border: none;
+}
