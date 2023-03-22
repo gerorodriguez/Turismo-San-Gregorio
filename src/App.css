@@ -21,3 +21,12 @@
 .bt1 {
   border: none;
 }
+.picture {
+  display: flex;
+  justify-content: center;
+}
+.picture2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}

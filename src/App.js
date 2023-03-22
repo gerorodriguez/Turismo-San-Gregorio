@@ -19,16 +19,19 @@ const App = () => {
         <button className="bt1">Leer mas</button>
       </div>
       <div className="picture">
-        <img src="hero.png" alt="SG" width="35%" height="100%" />
+        <img src="hero.png" alt="SG" width="50%" />
       </div>
       <div className="Laguna">
         <h2>La picasa</h2>
-        <img className="picturelag" src="pcs.png" width="20%" alt="picasa" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam
-          eleifend mi in nulla
-        </p>
+        <div className="picture2">
+          <img src="pcs.png" width="20%" alt="picasa" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam
+            eleifend mi in nulla
+          </p>
+          {/* fijarse el <p></p> */}
+        </div>
         <button className="bt2">Leer mas</button>
       </div>
     </div>
