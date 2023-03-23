@@ -5,28 +5,92 @@
   display: flex;
   justify-content: space-around;
 }
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 30%;
+}
+.info h1 {
+  width: 40%;
+}
+.text {
+  margin-left: 0%;
+  width: 25%;
+  margin-right: 10%;
+}
 .head button {
   border: none;
+  background-color: #ffffff;
   outline: none;
   height: 40px;
-  background: black;
-  color: #ffffff;
-  font-size: 18px;
-  border-radius: 20px;
+  font-size: 16px;
   width: 100%;
-  margin: 20px 0;
+  margin-right: 5%;
   cursor: pointer;
   touch-action: manipulation;
 }
 .bt1 {
   border: none;
+  background-color: #fa7436;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 20%;
+  height: 30px;
+  margin-bottom: 10%;
 }
 .picture {
   display: flex;
   justify-content: center;
 }
-.picture2 {
+
+.laguna {
+  background-color: rgb(241, 241, 241);
+  width: 75%;
+}
+.laguna h2 {
   display: flex;
-  justify-content: space-evenly;
-  width: 80%;
+  margin-left: 10%;
+  width: 60%;
+}
+.pic img {
+  display: flex;
+}
+.pic {
+  display: flex;
+  align-items: center;
+}
+.pic p {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  align-items: center;
+  margin-left: 5%;
+}
+.inf {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.boton {
+  display: flex;
+  align-items: flex-end;
+}
+
+.letra {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pic button {
+  border: none;
+  outline: black;
+  height: 30px;
+  background: #fa7436;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 20%;
+  cursor: pointer;
+  touch-action: manipulation;
+  margin-right: 10%;
 }
