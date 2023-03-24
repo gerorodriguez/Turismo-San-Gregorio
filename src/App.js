@@ -17,7 +17,7 @@ const App = () => {
         </div>
       </div>
       <div className="picture">
-        <img src="hero.png" alt="SG" />
+        <img src="hero.png" className=""  alt="SG" />
       </div>
       <div className="laguna">
         <h2>La picasa</h2>

@@ -19,19 +19,42 @@
   width: 25%;
   margin-right: 10%;
 }
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 30%;
+}
+.info h1 {
+  width: 40%;
+}
+.text {
+  margin-left: 0%;
+  width: 25%;
+  margin-right: 10%;
+}
 .head button {
   border: none;
+  background-color: #ffffff;
   background-color: #ffffff;
   outline: none;
   height: 40px;
   font-size: 16px;
+  font-size: 16px;
   width: 100%;
+  margin-right: 5%;
   margin-right: 5%;
   cursor: pointer;
   touch-action: manipulation;
 }
 .bt1 {
   border: none;
+  background-color: #fa7436;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 20%;
+  height: 30px;
+  margin-bottom: 10%;
   background-color: #fa7436;
   color: #ffffff;
   font-size: 15px;
