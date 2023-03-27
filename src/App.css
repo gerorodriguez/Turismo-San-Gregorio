@@ -1,5 +1,5 @@
 .main {
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .head {
   display: flex;
@@ -11,9 +11,7 @@
   margin-left: 25%;
   margin-right: 30%;
 }
-.info h1 {
-  width: 40%;
-}
+
 .text {
   margin-left: 0%;
   width: 25%;
@@ -51,18 +49,12 @@
 }
 .laguna h2 {
   display: flex;
-  margin-left: 10%;
+  margin-left: 15%;
   width: 60%;
 }
 .pic {
   display: flex;
   align-items: center;
-}
-
-.inf {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
 }
 
 .boton {
@@ -80,11 +72,6 @@
   width: 20%;
   align-items: center;
   margin-left: 5%;
-}
-
-.letra {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .pic button {

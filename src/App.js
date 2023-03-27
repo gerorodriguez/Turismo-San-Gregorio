@@ -10,14 +10,14 @@ const App = () => {
         <button>Tour</button>
       </div>
       <div className="info">
-        <h2>Bienvenido a San gregorio</h2>
+        <h1 className="welcome w-20">Bienvenido a San gregorio!</h1>
         <div className="text">
           <p>Pueblo ubicado al Sur de la provincia de Santa Fe.</p>
           <button className="bt1">Leer mas</button>
         </div>
       </div>
-      <div className="picture">
-        <img src="hero.png" className=""  alt="SG" />
+      <div className="picture h-100 my-20">
+        <img src="hero.png" className="" alt="SG" />
       </div>
       <div className="laguna">
         <h2>La picasa</h2>
@@ -28,7 +28,7 @@ const App = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam
             eleifend mi in nulla
             <div className="boton">
-              <button className="bt2">Leer mas</button>
+              <button className="bt2 h-80">Leer mas</button>
             </div>
           </p>
         </div>
