@@ -131,3 +131,12 @@
   justify-content: center;
   margin-top: 10%;
 }
+.comp {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.head button:hover{
+  background-color: rgb(228, 228, 228);
+}

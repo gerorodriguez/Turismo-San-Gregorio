@@ -1,23 +1,21 @@
 import React from "react";
+import "./Card.css";
 
 const Card = () => {
   return (
-    <div class="main">
-      <div class="head">
-        <button>Home</button>
-        <button>About us</button>
-        <button>Laguna</button>
-        <button>Tour</button>
-      </div>
-      <div class="Info">
-        <h1>Bienvenido a San gregorio</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam
-          eleifend mi in nulla.
-        </p>
-        <button class="Discover">Leer mas</button>
-        <img src="sangregorio.png" alt="SG"></img>
+    <div class="container">
+      <div class="card" style={{width: "18rem"}}>
+        <img class="card-img-top" src="..." alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>
+        </div>
       </div>
     </div>
   );

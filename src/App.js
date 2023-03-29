@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import Card from "./components/Card";
 
 const App = () => {
   return (
@@ -37,6 +38,11 @@ const App = () => {
       </div>
       <div className="visit">
         <h1>Lugares para visitar</h1>
+      </div>
+      <div className="comp">
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );
