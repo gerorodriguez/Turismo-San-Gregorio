@@ -1,9 +1,12 @@
 .main {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0
 }
 .head {
   display: flex;
   justify-content: space-around;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 .info {
   display: flex;
@@ -11,11 +14,24 @@
   margin-left: 25%;
   margin-right: 30%;
 }
+.welcome {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  width: 30%;
+  font-size: 50px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+}
 
 .text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-left: 0%;
   width: 25%;
   margin-right: 10%;
+  margin-top: 14%;
+  margin-bottom: 7%;
+  font-size: 15px;
 }
 
 .head button {
@@ -42,15 +58,20 @@
   display: flex;
   justify-content: center;
 }
+.picture img {
+  border-radius: 10px;
+  width: 50%;
+}
 
 .laguna {
+  margin-top: 10%;
   background-color: rgb(241, 241, 241);
   width: 75%;
 }
 .laguna h2 {
   display: flex;
-  margin-left: 15%;
-  width: 60%;
+  margin-left: 75%;
+  width: 20%;
 }
 .pic {
   display: flex;
@@ -64,6 +85,8 @@
 
 .pic img {
   display: flex;
+  margin-left: 33%;
+  border-radius: 2%;
 }
 
 .pic p {
@@ -72,6 +95,22 @@
   width: 20%;
   align-items: center;
   margin-left: 5%;
+}
+.fe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.parr h4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90%;
+  margin-left: 20%;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
 }
 
 .pic button {
@@ -85,4 +124,10 @@
   cursor: pointer;
   touch-action: manipulation;
   margin-right: 10%;
+}
+
+.visit {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
 }
