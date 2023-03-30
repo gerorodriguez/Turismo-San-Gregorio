@@ -7,10 +7,10 @@ const App = () => {
   return (
     <div className="main" style={{ backgroundImage: "url(/bg.png)" }}>
       <header className="head">
-        <button>Home</button>
-        <button>About us</button>
-        <button>Laguna</button>
-        <button>Tour</button>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">LAGUNA</a>
+        <a href="#">TOUR</a>
         <header>+5435231231</header>
       </header>
       <div className="info">
@@ -26,16 +26,16 @@ const App = () => {
       <div className="laguna">
         <div className="pic">
           <img src="pcs.png" alt="picas" />
-          <p className="parr">
-            <div className="fe">
-              <h2>La picasa, laguna por excelencia</h2>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Aliquam eleifend mi in nulla
-              <button className="bt2">Leer mas</button>
-            </div>
-          </p>
         </div>
+        <p className="parr">
+          <div className="fe">
+            <h2>La picasa, laguna por excelencia</h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam
+            eleifend mi in nulla
+            <button className="bt2">Leer mas</button>
+          </div>
+        </p>
       </div>
       <div className="visit">
         <h1>Lugares para visitar</h1>

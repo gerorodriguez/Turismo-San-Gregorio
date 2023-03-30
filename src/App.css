@@ -8,12 +8,19 @@
   margin-right: 15%;
   margin-left: 15%;
   margin-top: 1px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.head a {
+  margin-top: 6px;
+  color: #222222;
+  text-decoration: none;
 }
 .head header {
   margin-top: 0.4%;
   color: #fa7436;
 }
-/* .head button{ */
 
 .info {
   display: flex;
@@ -71,6 +78,7 @@
 }
 
 .laguna {
+  display: flex;
   margin-top: 10%;
   background-color: rgb(241, 241, 241);
   width: 75%;
@@ -96,7 +104,7 @@
   border-radius: 2%;
 }
 
-.pic p {
+.laguna p {
   display: flex;
   justify-content: center;
   width: 24%;
@@ -105,12 +113,11 @@
 }
 .fe {
   display: flex;
-  align-items: center;
+  align-items:flex-start;
   justify-content: center;
   flex-wrap: wrap;
   font-family: "Nunito Sans", sans-serif;
-  margin-left: 10%;
-  margin-bottom: 40%;
+  margin-left: 100%;
 }
 
 .parr h2 {
@@ -149,6 +156,8 @@
   flex-wrap: wrap;
 }
 
-.head button:hover {
-  background-color: rgb(228, 228, 228);
+.head a:hover {
+  color: #FA7436;
+  text-decoration: underline
+
 }
