@@ -5,12 +5,13 @@ import Card from "./components/Card";
 
 const App = () => {
   return (
-    <div className="main">
+    <div className="main" style={{ backgroundImage: "url(/bg.png)" }}>
       <header className="head">
         <button>Home</button>
         <button>About us</button>
         <button>Laguna</button>
         <button>Tour</button>
+        <header>+5435231231</header>
       </header>
       <div className="info">
         <h1 className="welcome">Bienvenido a San gregorio!</h1>
@@ -27,7 +28,7 @@ const App = () => {
           <img src="pcs.png" alt="picas" />
           <p className="parr">
             <div className="fe">
-              <h4>La picasa, laguna por excelencia</h4>
+              <h2>La picasa, laguna por excelencia</h2>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Aliquam eleifend mi in nulla
