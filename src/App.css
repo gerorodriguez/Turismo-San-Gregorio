@@ -73,7 +73,7 @@
   justify-content: center;
 }
 .picture img {
-  border-radius: 10px;
+  border-radius: 30px;
   width: 50%;
 }
 
@@ -82,6 +82,7 @@
   margin-top: 10%;
   background-color: rgb(241, 241, 241);
   width: 75%;
+  padding-left: 18%;
 }
 .laguna h2 {
   display: flex;
