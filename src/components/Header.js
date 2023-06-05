@@ -9,6 +9,7 @@ const header = () => {
         <a href="#">LAGUNA</a>
         <a href="#">TOUR</a>
         <header>+5435231231</header>
+        
       </header>
     </div>
   );

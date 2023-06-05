@@ -10,7 +10,6 @@
   margin-top: 1px;
   font-weight: bold;
   font-size: 15px;
-
 }
 .head a {
   margin-top: 6px;
@@ -114,7 +113,7 @@
 }
 .fe {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
   font-family: "Nunito Sans", sans-serif;
@@ -158,7 +157,6 @@
 }
 
 .head a:hover {
-  color: #FA7436;
-  text-decoration: underline
-
+  color: #fa7436;
+  text-decoration: underline;
 }

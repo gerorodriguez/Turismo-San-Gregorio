@@ -16,9 +16,9 @@ const App = () => {
         <h1>Lugares para visitar</h1>
       </div>
       <div className="comp">
-        <Card />
-        <Card />
-        <Card />
+        <Card className="c1" image={"lag6.png"} />
+        <Card image={"lag1.png"} />
+        <Card image={"lag2.png"} />
       </div>
     </div>
   );
